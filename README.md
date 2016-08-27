@@ -11,20 +11,6 @@ La ville de **Pluto** décide de s'équiper d'une application Web pour gérer se
 
 ## Backlog
 
-### User Story 1 - Créer un feu localisé
-
-En tant qu'employé de Mairie je peux créer un nouveau feu afin de modéliser la circulation des véhicules et des piétons.
-
-- doit comporter la lattitude et la longitude
-- doit comporter un nom unique - ex: fx124012
-- doit comporter un statut affichant la couleur active - par défaut : 'vert'
-
-Notes :
-- Créer une **classe: TrafficLight**
-- Ajouter une méthode **constructor()** pour définir les attributs
-- Tester la création d'un nouveau feu
-- Notions : class, constructor, new, =, const
-
 ### User Story 2 - Demander le passage
 
 En tant que piéton je peux demander à ce que le feu deviennent rouge pour que je puisse traverser.
