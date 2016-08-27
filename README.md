@@ -11,17 +11,6 @@ La ville de **Pluto** décide de s'équiper d'une application Web pour gérer se
 
 ## Backlog
 
-### User Story 2 - Demander le passage
-
-En tant que piéton je peux demander à ce que le feu deviennent rouge pour que je puisse traverser.
-
-- doit permettre de faire passer un feu au rouge
-
-Notes :
-- Créer une **méthode changeToRed()** dans la classe **Feux**
-- Tester la méthode
-- Notions : new, this.status
-
 ### User Story 3 - Gérer les feux
 
 En tant qu'employé de Mairie je veux administrer l'ensemble des feux afin de gérer la circulation des véhicules et des piétons.
