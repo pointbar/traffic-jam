@@ -11,24 +11,6 @@ La ville de **Pluto** décide de s'équiper d'une application Web pour gérer se
 
 ## Backlog
 
-### User Story 3 - Gérer les feux
-
-En tant qu'employé de Mairie je veux administrer l'ensemble des feux afin de gérer la circulation des véhicules et des piétons.
-
-- doit permettre d'ajouter un feu
-- doit permettre de lister les feux
-- doit permettre de voir les feux pour un statut donné
-- doit permettre de stocker les données dans le navigateur
-
-Notes :
-- Créer une **classe: Network**
-- Créer un réseau **TrafficLight** pour l'atoll
-- Ajouter une méthode **addTrafficLight()** pour ajouter un feu
-- stocker chaque feu dans *LocalStorage*
-- Ajouter une méthode **listTrafficLight()**
-- Ajouter une méthode **listGreenTrafficLight()**
-- Notions : class, new, localStorage, .filter(), .map()
-
 ### User Story 4 - Voir le feux orange avant le passage au rouge
 
 En tant que conducteur je souhaite être averti que le feux va passer au rouge afin de ne pas freiner trop brusquement.
