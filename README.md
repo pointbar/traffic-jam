@@ -29,19 +29,5 @@ Notes :
 - Ajouter une méthode **listGreenTrafficLight()**
 - Notions : class, new, localStorage, .filter(), .map()
 
-### User Story 4 - Voir le feux orange avant le passage au rouge
-
-En tant que conducteur je souhaite être averti que le feux va passer au rouge afin de ne pas freiner trop brusquement.
-
-- doit permettre d'ajouter un statut orange avant le passage au rouge
-- doit rester 10" au orange avant de passer au rouge
-
-Notes :
-- Ajouter une **méthode changeToOrange()** dans la classe **Feux**
-- Regarder l'utilisation de **setTimer()** et **setInterval()** pour résoudre le problème des 10"
-- Appeler la nouvelle méthode dans **changeToRed()**
-- Tester la méthode
-- Notions : class, new, localStorage, .filter(), .map()
-
 
 
