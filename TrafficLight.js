@@ -4,4 +4,7 @@ class TrafficLight {
 		this.location = location
 		this.status = 'vert'
 	}
+	changeToRed() {
+		this.status = 'rouge'
+	}
 }
