@@ -8,6 +8,10 @@ class Network {
 	listTrafficLight() {
 		return this.trafficLights.map(tl => tl.name)
 	}
+	listGreenTrafficLight(color) {
+		return this.trafficLights.filter(tl => tl.status === color)
+			.map(tl => tl.name)
+	}
 }
 
 const PomPomGaly = new Network()
