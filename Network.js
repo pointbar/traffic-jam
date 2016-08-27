@@ -13,5 +13,4 @@ class Network {
 			.map(tl => tl.name)
 	}
 }
-
 const PomPomGaly = new Network()
