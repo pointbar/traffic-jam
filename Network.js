@@ -16,4 +16,3 @@ class Network {
 		return this.trafficLights.find(tl => tl.name === name)
 	}
 }
-const PomPomGaly = new Network()
