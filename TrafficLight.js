@@ -4,7 +4,12 @@ class TrafficLight {
 		this.location = location
 		this.status = 'vert'
 	}
+	_changeStatus(color) {
+		this.status = color
+		console.log(`Le feu ${this.name} est ${this.status}`)
+	}
 	changeToRed() {
-		this.status = 'rouge'
+		this._changeStatus('orange')
+		setTimeout(() => this._changeStatus('rouge'), 3000)
 	}
 }
