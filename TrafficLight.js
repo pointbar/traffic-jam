@@ -12,4 +12,9 @@ class TrafficLight {
 		this._changeStatus('orange')
 		setTimeout(() => this._changeStatus('rouge'), 3000)
 	}
+	displayLi() {
+		const li = document.createElement('li')
+		li.innerHTML = `<li><i class="${this.status}">•</i> - ${this.name}</li>`
+		return li
+	}
 }
