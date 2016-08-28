@@ -2,18 +2,24 @@ class TrafficLight {
 	constructor({name, location}) {
 		this.name = name
 		this.location = location
-		this.status = 'vert'
+		this.status = ''
 	}
 	_changeStatus(color) {
 		this.status = color
-		this._changeHtmlColor()
+		this._changeHtmlColor(color)
 	}
-	_changeHtmlColor() {
-		document.querySelector(`i.${this.name}`).className = `${this.status} ${this.name}`
+	_changeHtmlColor(color) {
+		document.querySelector(`i.${this.name}`).className = `${color} ${this.name}`
 	}
 	changeToRed() {
 		this._changeStatus('orange')
 		setTimeout(() => this._changeStatus('rouge'), 3000)
+	}
+	changeToGreen() {
+		this._changeStatus('vert')
+	}
+	toggleStatus() {
+		(this.status === 'rouge') ? this.changeToGreen() : this.changeToRed()
 	}
 	displayLi() {
 		const li = document.createElement('li')
