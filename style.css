@@ -1,0 +1,16 @@
+ul {
+	list-style-type: none;
+}
+li i {
+	font-size: 3em;
+	vertical-align: middle;
+}
+li i.vert {
+	color: green;
+}
+li i.rouge {
+	color: red;
+}
+li i.orange {
+	color: orange;
+}

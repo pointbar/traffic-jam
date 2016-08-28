@@ -17,8 +17,9 @@ class Network {
 	}
 	displayNetwork(className) {
 		this.listTrafficLight().map(name => {
+			const trafficLight = this.getTrafficLightByName(name)
 			const li =  document.createElement('li')
-			li.innerHTML = `<li>${name} - ${this.getTrafficLightByName(name).status}</li>`
+			li.innerHTML = `<li><i class="${trafficLight.status}">•</i> - ${name}</li>`
 			document.querySelector(`ul.${className}`).appendChild(li)
 		})
 	}
