@@ -1,7 +1,7 @@
 ---
 title: TP - Traffic Jam
 description: Construire une application pour aider les urbanistes de l'atoll de PomPomGalli à gérer la circulation des véhicules et des piétons.
-image_url: https://github.com/Amanda-Martinez/Friendly-Places/blob/master/fiches/img/kata.jpg?raw=true
+image_url: https://github.com/pointbar/traffic-jam/blob/master/img/traffic-light.jpg?raw=true
 ---
 
 # Traffic Jam
