@@ -6,7 +6,10 @@ class TrafficLight {
 	}
 	_changeStatus(color) {
 		this.status = color
-		console.log(`Le feu ${this.name} est ${this.status}`)
+		this._changeHtmlColor()
+	}
+	_changeHtmlColor() {
+		document.querySelector(`i.${this.name}`).className = `${this.status} ${this.name}`
 	}
 	changeToRed() {
 		this._changeStatus('orange')
@@ -14,7 +17,10 @@ class TrafficLight {
 	}
 	displayLi() {
 		const li = document.createElement('li')
-		li.innerHTML = `<li><i class="${this.status}">•</i> - ${this.name}</li>`
+		li.innerHTML = `
+			<li>
+				<i class="${this.status} ${this.name}">•</i> - ${this.name}
+			</li>`
 		return li
 	}
 }
