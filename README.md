@@ -9,4 +9,10 @@ image_url: https://github.com/Amanda-Martinez/Friendly-Places/blob/master/fiches
 ## Contexte
 L'atoll de [PomPomGalli](https://www.youtube.com/watch?time_continue=7&v=UmFERtl-o8E) décide de s'équiper d'une application Web pour gérer ses feux tricolores. Le produit devrait permettre de limiter les embouteillages en optimisant la circulation des véhicules, et de favoriser le confort des piétons.
 
+## Informations
+
+- [site](https://pointbar.github.io/traffic-jam/)
+
 ## Backlog
+
+- [Consulter Les User Stories terminées](https://github.com/pointbar/traffic-jam/pulls?q=is%3Apr+is%3Aclosed)
