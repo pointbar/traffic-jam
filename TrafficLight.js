@@ -17,10 +17,19 @@ class TrafficLight {
 	}
 	displayLi() {
 		const li = document.createElement('li')
-		li.innerHTML = `
-			<li>
-				<i class="${this.status} ${this.name}">•</i> - ${this.name}
-			</li>`
+		const button = document.createElement('button')
+		const i = document.createElement('i')
+		const text = document.createTextNode(` - ${this.name} `)
+		i.className = `${this.status} ${this.name}`
+		i.innerText = '•'
+		button.innerText = '\\o/'
+		button.className = this.name
+		button.addEventListener('click', (evt) => {
+			PomPomGaly.getTrafficLightByName(evt.target.className).changeToRed()
+    })
+		li.appendChild(i)
+		li.appendChild(text)
+		li.appendChild(button)
 		return li
 	}
 }

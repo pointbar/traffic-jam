@@ -1,5 +1,4 @@
 const PomPomGaly = new Network()
-
 document.addEventListener('DOMContentLoaded', () => {
 	fixtures(PomPomGaly)
 	PomPomGaly.displayNetwork('pompomgali')
