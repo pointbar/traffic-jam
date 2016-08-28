@@ -8,6 +8,10 @@ class Network {
 	listTrafficLight() {
 		return this.trafficLights.map(tl => tl.name)
 	}
+	listTrafficLightByColor(color) {
+		return this.trafficLights.filter(tl => tl.status === color)
+			.map(tl => tl.name)
+	}
 	getTrafficLightByName(name) {
 		return this.trafficLights.find(tl => tl.name === name)
 	}
