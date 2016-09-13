@@ -15,20 +15,4 @@ L'atoll de [PomPomGalli](https://www.youtube.com/watch?time_continue=7&v=UmFERtl
 
 ## Backlog
 
-### Technical Story 7 - Installer les tests unitaires
-
-En tant que développeur je souhaite pouvoir tester unitairement le code afin de limiter les effets de bord.
-
-- [ ] doit permettre l'utilisation d'une syntaxe d'assertion
-- [ ] doit permettre de lancer une série de tests
-- [ ] doit permettre de créer un premier test pour la création d'un feu
-
-Notes :
-- Créer un dossier de *tests* et un *index*
-- Ajouter *mocha* à partir d'un *cdn*
-- Ajouter expect à partir d'un *cdn*
-- Insérer le fichier de classe des feux
-- Créer un fichier de tests pour les feux
-- Créer un premier test pour vérifier la création d'un feu
-
 - [Consulter Les User Stories terminées](https://github.com/pointbar/traffic-jam/pulls?q=is%3Apr+is%3Aclosed)
