@@ -13,6 +13,16 @@ L'atoll de [PomPomGalli](https://www.youtube.com/watch?time_continue=7&v=UmFERtl
 
 - [site](https://pointbar.github.io/traffic-jam/)
 
+## Lancement en local
+Par exemple via [http-server](https://www.npmjs.com/package/http-server)
+
+## Tests unitaires
+En prod. :
+- [tests](https://pointbar.github.io/traffic-jam/tests)
+
+En local :
+- [https://localhost:8080/tests](https://localhost:8080/tests)
+
 ## Backlog
 
 - [Consulter Les User Stories terminées](https://github.com/pointbar/traffic-jam/pulls?q=is%3Apr+is%3Aclosed)
